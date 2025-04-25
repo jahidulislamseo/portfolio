@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Jahidul Islam - Expert SEO Executive & CMS Specialist with proven track record in increasing organic traffic by 30%">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/Nd7fKXWp/jahidul-islam.png">
+    <title>Jahidul Islam | Professional SEO Executive & CMS Specialist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e4bb6;
+            --secondary: #10b981;
+            --secondary-dark: #0d9e6e;
+            --dark: #1e293b;
+            --darker: #0f172a;
+            --light: #f8fafc;
+            --lighter: #ffffff;
+            --gray: #94a3b8;
+            --light-gray: #e2e8f0;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            padding: 100px 0;
+        }
+        
+        section:nth-child(even) {
+            background-color: var(--lighter);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--dark);
+            margin-bottom: 20px;
+        }
+        
+        .section-title .divider {
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            margin: 0 auto;
+            border-radius: 2px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            box-shadow: var(--shadow);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+            opacity: 0.9;
+        }
+        
+        .btn-outline {
+            background: transparent;
+            color: var(--primary);
+            border-color: var(--primary);
+        }
+        
+        .btn-outline:hover {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 120px 0 100px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            top: -150px;
+            right: -150px;
+        }
+        
+        header::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            bottom: -100px;
+            left: -100px;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .profile-img-container {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.2);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            transition: var(--transition);
+        }
+        
+        .profile-img-container:hover {
+            transform: scale(1.05);
+            border-color: white;
+        }
+        
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .hero-content .tagline {
+            font-size: 1.4rem;
+            opacity: 0.9;
+            margin-bottom: 25px;
+        }
+        
+        .hero-content p {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+        }
+        
+        .hero-btns {
+            margin-bottom: 40px;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 50%;
+            font-size: 1.3rem;
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            background-color: white;
+            color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        /* About Section */
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .about-content p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        
+        /* Stats Section */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: var(--lighter);
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+         .stat-item.animated {
+            opacity: ;
+            transform: translateY(0);
+        }
+        
+        
+        .stat-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-label {
+            font-size: 1.1rem;
+            color: var(--dark);
+            font-weight: 500;
+        }
+        
+        /* Skills Section */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .skill-category {
+            background-color: var(--lighter);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            border-top: 4px solid var(--primary);
+            transition: var(--transition);
+        }
+        
+        .skill-category:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .skill-category h3 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 25px;
+            color: var(--dark);
+        }
+        
+        .skill-category h3 i {
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+        
+        .skill-item {
+            margin-bottom: 20px;
+        }
+        
+        .skill-name {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        .skill-bar {
+            height: 8px;
+            background-color: var(--light-gray);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            border-radius: 4px;
+            position: relative;
+        }
+        
+        .skill-progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to right, 
+                            rgba(255,255,255,0.1) 0%, 
+                            rgba(255,255,255,0.3) 50%, 
+                            rgba(255,255,255,0.1) 100%);
+            animation: shine 2s infinite;
+        }
+        
+        @keyframes shine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        /* Experience Section */
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+            padding-left: 50px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            background-color: var(--primary);
+            top: 0;
+            bottom: 0;
+            left: 20px;
+            opacity: 0.2;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            padding-left: 30px;
+        }
+        
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .timeline-dot {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: var(--lighter);
+            border: 4px solid var(--primary);
+            border-radius: 50%;
+            left: 10px;
+            top: 5px;
+            z-index: 2;
+        }
+        
+        .timeline-date {
+            font-weight: 500;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        
+        .timeline-title {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .timeline-company {
+            display: inline-block;
+            background-color: var(--light-gray);
+            padding: 4px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .timeline-content ul {
+            padding-left: 20px;
+        }
+        
+        .timeline-content li {
+            margin-bottom: 10px;
+            position: relative;
+            list-style-type: none;
+        }
+        
+        .timeline-content li::before {
+            content: '▹';
+            position: absolute;
+            left: -20px;
+            color: var(--secondary);
+        }
+        
+        /* CMS Showcase Section */
+        .cms-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .cms-item {
+            background-color: var(--lighter);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid var(--light-gray);
+        }
+        
+        .cms-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary);
+        }
+        
+        .cms-icon {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 20px;
+            display: block;
+            object-fit: contain;
+            transition: var(--transition);
+        }
+        
+        .cms-item:hover .cms-icon {
+            transform: scale(1.1);
+        }
+        
+        .cms-item h3 {
+            margin-bottom: 10px;
+            color: var(--darker);
+        }
+        
+        .cms-item p {
+            font-size: 0.95rem;
+            color: var(--gray);
+        }
+        
+        /* Achievements Section */
+        .achievements-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .achievement-item {
+            background-color: var(--lighter);
+            padding: 35px 30px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            margin-bottom: 0;
+            border-left: 4px solid var(--primary);
+            transition: var(--transition);
+        }
+        
+        .achievement-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .achievement-item h3 {
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .achievement-item h3 i {
+            color: var(--secondary);
+            font-size: 1.5rem;
+        }
+        
+        .achievement-item p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+        
+        /* Portfolio Section */
+        .portfolio-filter {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        
+        .filter-btn {
+            padding: 8px 20px;
+            background-color: var(--light);
+            border: none;
+            border-radius: 30px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .filter-btn.active, .filter-btn:hover {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+        }
+        
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .portfolio-item {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .portfolio-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .portfolio-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(37, 99, 235, 0.8), rgba(16, 185, 129, 0.8));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: var(--transition);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+        
+        .portfolio-overlay h3 {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        
+        .portfolio-overlay p {
+            margin-bottom: 20px;
+        }
+        
+        .portfolio-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+        
+        .portfolio-links a:hover {
+            color: var(--darker);
+        }
+        
+        /* Tools Section */
+        .tools-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .tool-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: var(--lighter);
+            padding: 25px 15px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-align: center;
+        }
+        
+        .tool-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .tool-icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+            object-fit: contain;
+            transition: var(--transition);
+        }
+        
+        .tool-item:hover .tool-icon {
+            transform: scale(1.1);
+        }
+        
+        .tool-item span {
+            font-weight: 500;
+            color: var(--darker);
+        }
+        
+        /* Certifications Section */
+        .certifications-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .certification-item {
+            background-color: var(--lighter);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-left: 4px solid var(--secondary);
+        }
+        
+        .certification-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .certification-item h3 {
+            color: var(--darker);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .certification-item p {
+            color: var(--gray);
+            font-size: 0.95rem;
+        }
+        
+        /* Education Section */
+        .education-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .education-item {
+            background-color: var(--lighter);
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: var(--transition);
+        }
+        
+        .education-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .education-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .education-item h3 {
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+        
+        .education-item .degree {
+            font-weight: 500;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        .education-item p {
+            color: var(--gray);
+        }
+        
+        /* Testimonials Section */
+        .testimonials-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-item {
+            background-color: var(--lighter);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+            position: relative;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .testimonial-item::before {
+            content: '\201C';
+            font-family: Georgia, serif;
+            font-size: 5rem;
+            color: rgba(37, 99, 235, 0.1);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        
+        .testimonial-content {
+            position: relative;
+            z-index: 1;
+            font-size: 1.1rem;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .author-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 3px solid var(--primary);
+        }
+        
+        .author-info h4 {
+            margin-bottom: 5px;
+            color: var(--dark);
+        }
+        
+        .author-info p {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Contact Section */
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .contact-info {
+            background-color: var(--lighter);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+        }
+        
+        .contact-info h3 {
+            color: var(--primary);
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .contact-details {
+            margin-bottom: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            transition: var(--transition);
+        }
+        
+        .contact-item:hover {
+            background-color: rgba(16, 185, 129, 0.05);
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(37, 99, 235, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+        
+        .contact-text {
+            font-size: 1.05rem;
+        }
+        
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .social-media a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background-color: rgba(37, 99, 235, 0.1);
+            color: var(--primary);
+            border-radius: 50%;
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+        
+        .social-media a:hover {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            transform: translateY(-5px);
+        }
+        
+        .contact-form {
+            background-color: var(--lighter);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+        }
+        
+        .contact-form h3 {
+            color: var(--primary);
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--dark);
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--darker);
+            color: white;
+            padding: 60px 0 30px;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .footer-logo {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, white, #a5b4fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--secondary);
+        }
+        
+        .footer-social {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-social a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+        
+        .footer-social a:hover {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            opacity: 0.8;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+        
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            text-decoration: none;
+            box-shadow: var(--shadow-lg);
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 999;
+        }
+        
+        .back-to-top.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-5px);
+        }
+        
+        /* Animation Classes */
+        .animate {
+            opacity: 0;
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .fade-in {
+            opacity: 1;
+        }
+        
+        .slide-left {
+            transform: translateX(-50px);
+        }
+        
+        .slide-right {
+            transform: translateX(50px);
+        }
+        
+        .slide-up {
+            transform: translateY(50px);
+        }
+        
+        .animate.show {
+            opacity: 1;
+            transform: translate(0, 0);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .portfolio-grid {
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            }
+            
+            .timeline {
+                padding-left: 30px;
+            }
+            
+            .timeline::before {
+                left: 10px;
+            }
+            
+            .timeline-dot {
+                left: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            section {
+                padding: 80px 0;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-content .tagline {
+                font-size: 1.2rem;
+            }
+            
+            .profile-img-container {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .education-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            header {
+                padding: 100px 0 80px;
+            }
+            
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-btns .btn {
+                display: block;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .testimonial-item {
+                padding: 30px 20px;
+            }
+              .cta-button {
+            display: inline-block;
+            background-color: var(--lighter);
+            color: var(--primary);
+            padding: 14px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 25px 10px 10px;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+            border: 2px solid transparent;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+            background-color: transparent;
+            color: white;
+            border-color: white;
+        }
+        
+        .cta-button.secondary {
+            background-color: transparent;
+            color: white;
+            border-color: white;
+        }
+        
+        .cta-button.secondary:hover {
+            background-color: white;
+            color: var(--primary);
+        }
+             .cta-button {
+                padding: 12px 25px;
+                margin: 15px 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-img-container">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/Nd7fKXWp/jahidul-islam.png" alt="Jahidul Islam - Professional SEO Specialist" class="profile-img"/></a>
+                </div>
+                <h1>Jahidul Islam</h1>
+                <p class="tagline">SEO Executive | CMS Customization Specialist</p>
+                <p>Helping businesses increase organic traffic by up to 30% through technical SEO and CMS optimization</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary cta-button">Hire Me</a>
+                    <a href="#" class="btn btn-outline cta-button">Download CV</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/jahidul-islam-seo-expert" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:Mdjahidulislam@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+8801609132361" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="#portfolio" aria-label="Portfolio"><i class="fas fa-briefcase"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Professional Summary</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <p>Highly skilled and results-driven SEO Executive with 3+ years of experience in CMS customization, address configuration, and SEO strategy implementation. Proven track record of increasing organic traffic by up to 30% for clients in competitive industries. Specialized in WordPress and Shopify optimization, technical SEO audits, and data-driven content strategies.</p>
+                <p>Certified in Google Analytics and HubSpot Content Marketing with extensive experience using RankMath, Yoast SEO, SEMrush, and Ahrefs to deliver measurable results for diverse clients across multiple industries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item animate slide-up">
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">Traffic Increase</div>
+                </div>
+                <div class="stat-item animate slide-up">
+                    <div class="stat-number">300+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item animate slide-up">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item animate slide-up">
+                    <div class="stat-number">40%</div>
+                    <div class="stat-label">Acquisition Growth</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills & Expertise</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category animate slide-left">
+                    <h3><i class="fas fa-search"></i> SEO Specialization</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>CMS Customization</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Technical SEO</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Address Configuration</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>E-commerce SEO</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate slide-up">
+                    <h3><i class="fas fa-tools"></i> CMS Platforms</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>WordPress</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Shopify</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Joomla</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Drupal</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate slide-right">
+                    <h3><i class="fas fa-chart-line"></i> SEO Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>RankMath/Yoast</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Google Analytics</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>SEMrush/Ahrefs</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Screaming Frog</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Professional Experience</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">SEO Executive</h3>
+                        <span class="timeline-company">Betopia</span>
+                        <ul>
+                            <li>Led comprehensive SEO strategy for competitive markets with focus on keyword targeting, content optimization, and technical SEO improvements</li>
+                            <li>Integrated and optimized CMS platforms (WordPress, Shopify) for maximum SEO success, improving site architecture and URL structure</li>
+                            <li>Utilized RankMath and Yoast SEO to optimize content, resulting in 25% increase in organic traffic within first quarter</li>
+                            <li>Conducted competitor analysis and gap analysis to identify new ranking opportunities</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item animate slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jun 2024 - Dec 2024</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">SEO Executive</h3>
+                        <span class="timeline-company">Crystal Vision Solutions (CVS)</span>
+                        <ul>
+                            <li>Developed and implemented advanced SEO strategies that significantly increased organic traffic and improved search rankings</li>
+                            <li>Optimized CMS platforms (WordPress, Joomla, Shopify) through theme customization and technical SEO, resulting in 30% increase in site visibility</li>
+                            <li>Conducted comprehensive keyword research, competitive analysis, and SEO audits to identify optimization opportunities</li>
+                            <li>Implemented structured data markup and improved internal linking structure</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item animate slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Mar 2023 - Sep 2024</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">SEO Executive</h3>
+                        <span class="timeline-company">I.T. Phalanx</span>
+                        <ul>
+                            <li>Led SEO initiatives for businesses handling CUI in government contracts, focusing on NIST 800-171 and CMMC compliance requirements</li>
+                            <li>Conducted detailed technical SEO audits and implemented improvements for better search engine visibility</li>
+                            <li>Optimized content using Google Analytics, SEMrush, and Yoast SEO to improve organic rankings</li>
+                            <li>Worked with CMS platforms to ensure websites were optimized for both SEO and security compliance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CMS Showcase Section -->
+    <section id="cms">
+        <div class="container">
+            <div class="section-title">
+                <h2>CMS Expertise</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="cms-container">
+                <div class="cms-item animate fade-in">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" alt="WordPress SEO Optimization" class="cms-icon">
+                    <h3>WordPress</h3>
+                    <p>Theme customization, plugin optimization, performance tuning, and SEO configuration for maximum visibility</p>
+                </div>
+                <div class="cms-item animate fade-in">
+                    <img src="https://i.ibb.co.com/TMb63d0Q/1156660-ecommerce-logo-shopify-icon-1.png" alt="Shopify SEO Specialist" class="cms-icon">
+                    <h3>Shopify</h3>
+                    <p>E-commerce store optimization, SEO setup, product schema markup, and conversion rate optimization</p>
+                </div>
+                <div class="cms-item animate fade-in">
+                    <img src="https://i.ibb.co.com/ym6SK7yG/2993751-social-media-joomla-icon.png" alt="Joomla SEO Expert" class="cms-icon">
+                    <h3>Joomla</h3>
+                    <p>Template customization, extension optimization, and technical SEO enhancements</p>
+                </div>
+                <div class="cms-item animate fade-in">
+                    <img src="https://i.ibb.co.com/DHb6gJHJ/2993781-social-media-drupal-icon.png" alt="Drupal SEO Consultant" class="cms-icon">
+                    <h3>Drupal</h3>
+                    <p>Module configuration, performance optimization, and advanced technical SEO implementation</p>
+                </div>
+                 <div class="cms-item animate fade-in">
+                    <img src="https://i.ibb.co.com/G4S7s0QW/4375148-logo-wix-icon.png" alt="Drupal SEO Consultant" class="cms-icon">
+                    <h3>Wix</h3>
+                    <p>Module configuration, performance optimization, and advanced technical SEO implementation</p>
+                </div>
+                 <div class="cms-item animate fade-in">
+                    <img src="https://i.ibb.co.com/20KML2jC/287652-squarespace-icon.png" alt="Drupal SEO Consultant" class="cms-icon">
+                    <h3>Squarespace</h3>
+                    <p>Module configuration, performance optimization, and advanced technical SEO implementation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <div class="section-title">
+                <h2>Key Achievements</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="achievements-container">
+                <div class="achievement-item animate slide-up">
+                    <h3><i class="fas fa-trophy"></i> Traffic Growth</h3>
+                    <p>Successfully implemented SEO strategies that increased organic search traffic by up to 30% for clients in competitive industries like e-commerce, SaaS, and professional services.</p>
+                </div>
+                <div class="achievement-item animate slide-up">
+                    <h3><i class="fas fa-bolt"></i> CMS Optimization</h3>
+                    <p>Led CMS optimization projects that improved website speed by 40%, enhanced accessibility, and significantly boosted search engine visibility through technical improvements.</p>
+                </div>
+                <div class="achievement-item animate slide-up">
+                    <h3><i class="fas fa-cogs"></i> Technical SEO</h3>
+                    <p>Enhanced technical SEO for government contract websites by restructuring architecture, improving URL structures, and optimizing internal linking while maintaining NIST 800-171 compliance.</p>
+                </div>
+                <div class="achievement-item animate slide-up">
+                    <h3><i class="fas fa-chart-pie"></i> Client Acquisition</h3>
+                    <p>Developed SEO strategies that increased client acquisition rates by 40% for consulting businesses through targeted content and conversion optimization.</p>
+                </div>
+                <div class="achievement-item animate slide-up">
+                    <h3><i class="fa-regular fa-file-lines"></i> On-Page SEO Success</h3>
+                    <p>Optimized meta tags, headers, and content structure across multiple websites, resulting in a 25% average improvement in keyword rankings and user engagement metrics. </p>
+                </div>
+                <div class="achievement-item animate slide-up">
+                    <h3><i class="fa-solid fa-link"></i> Backlink Strategy Implementation </h3>
+                    <p>Devised and launched high-authority backlink campaigns that improved domain authority by up to 15 points and helped multiple client websites secure top 3 rankings for competitive keywords.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Portfolio</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wordpress">WordPress</button>
+                <button class="filter-btn" data-filter="shopify">Shopify</button>
+                <button class="filter-btn" data-filter="technical">Technical SEO</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item animate fade-in" data-category="wordpress technical">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="WordPress SEO Optimization Project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Website SEO</h3>
+                        <p>Technical SEO optimization for a B2B WordPress site resulting in 40% traffic increase</p>
+                        <div class="portfolio-links">
+                            <a href="#" title="View Details"><i class="fas fa-link"></i></a>
+                            <a href="#" title="See Live"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item animate fade-in" data-category="shopify ecommerce">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Shopify Store Optimization" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Store</h3>
+                        <p>Shopify SEO optimization that increased organic revenue by 35% in 3 months</p>
+                        <div class="portfolio-links">
+                            <a href="#" title="View Details"><i class="fas fa-link"></i></a>
+                            <a href="#" title="See Live"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item animate fade-in" data-category="technical">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Technical SEO Audit Project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Technical SEO Audit</h3>
+                        <p>Comprehensive audit and fixes that improved crawlability and indexation</p>
+                        <div class="portfolio-links">
+                            <a href="#" title="View Details"><i class="fas fa-link"></i></a>
+                            <a href="#" title="See Live"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item animate fade-in" data-category="wordpress ecommerce">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="WooCommerce SEO Project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>WooCommerce SEO</h3>
+                        <p>Product page optimization that doubled organic traffic in 6 months</p>
+                        <div class="portfolio-links">
+                            <a href="#" title="View Details"><i class="fas fa-link"></i></a>
+                            <a href="#" title="See Live"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item animate fade-in" data-category="technical">
+                    <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Website Migration Project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Website Migration</h3>
+                        <p>Successful CMS migration with zero loss in rankings or traffic</p>
+                        <div class="portfolio-links">
+                            <a href="#" title="View Details"><i class="fas fa-link"></i></a>
+                            <a href="#" title="See Live"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item animate fade-in" data-category="wordpress">
+                    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Content Strategy Project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Content Strategy</h3>
+                        <p>Data-driven content plan that increased organic leads by 50%</p>
+                        <div class="portfolio-links">
+                            <a href="#" title="View Details"><i class="fas fa-link"></i></a>
+                            <a href="#" title="See Live"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools">
+        <div class="container">
+            <div class="section-title">
+                <h2>SEO Tools I Master</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="tools-container">
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/ZprWXW74/Rank-Math-Logo.jpg" alt="RankMath SEO Plugin" class="tool-icon">
+                    <span>RankMath</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/mrxWKpV4/yoast-seo-the-1-wordpress-seo-plugin-yoast-1.png" alt="Yoast SEO Plugin" class="tool-icon">
+                    <span>Yoast SEO</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/9mbntHVK/629a430c3e59ee069da94c88.png" alt="Google Analytics" class="tool-icon"> 
+                    <span>Google Analytics</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/qqdvs62/Ahrefs-Old-Logo.png" alt="Ahrefs SEO Tool" class="tool-icon">
+                    <span>Ahrefs</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/pjVztHHW/629a40dc3e59ee069da94c82.png" alt="SEMrush SEO Suite" class="tool-icon">
+                    <span>SEMrush</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/whZDk70x/Google-Search-Console-Word-Press-1.png" alt="Google Search Console" class="tool-icon">
+                    <span>Search Console</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/gMnSBBWW/screaming-frog3430-logowik-com.webp" alt="Screaming Frog SEO Spider" class="tool-icon">
+                    <span>Screaming Frog</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/JWJJxqcQ/524-5248957-google-my-business-logo-png-transparent-png.png" alt="Google My Business" class="tool-icon">
+                    <span>Google My Business</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/JjWV6b9R/FS-AFFI4-018-Surfer-SEO.png" alt="Google My Business" class="tool-icon">
+                    <span>Surfer SEO</span>
+                </div>
+                <div class="tool-item animate fade-in">
+                    <img src="https://i.ibb.co.com/6c58yTzM/52d67faa-ae76-4357-b4ff-b7e002eece5b.png" alt="Google My Business" class="tool-icon">
+                    <span>Moz Pro SEO Tools</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="certifications-container">
+                <div class="certification-item animate slide-left">
+                    <h3>Google Analytics Certification</h3>
+                    <p>Google | 2023</p>
+                    <p>Advanced analytics implementation and data interpretation for SEO optimization</p>
+                </div>
+                <div class="certification-item animate slide-up">
+                    <h3>HubSpot Content Marketing</h3>
+                    <p>HubSpot Academy | 2024</p>
+                    <p>Content strategy development for SEO and lead generation</p>
+                </div>
+                <div class="certification-item animate sl ide-right">
+                    <h3>Beginner SEO with Semrush</h3>
+                    <p>Semrush Academy | 2025</p>
+                    <p>Comprehensive SEO training using Semrush tools and methodologies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="education-container">
+                <div class="education-item animate fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>BSc in Computer Science & Engineering</h3>
+                    <p class="degree">Manarat International University (MIU)</p>
+                    <p>Expected Graduation: 2029</p>
+                    <p>Specializing in Web Technologies and Digital Marketing</p>
+                </div>
+                
+                <div class="education-item animate fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Diploma in Textile Engineering</h3>
+                    <p class="degree">Rajshahi Haji Abul Hossen Institute of Technology</p>
+                    <p>Graduation Year: 2022 | CGPA: 3.83/4.00</p>
+                    <p>Relevant coursework: Industrial Management, Quality Control</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial-item animate slide-up">
+                    <div class="testimonial-content">
+                        <p>Jahidul transformed our website's organic performance. Within 3 months, we saw a 35% increase in qualified traffic and a significant improvement in lead quality. His technical expertise and strategic approach to SEO delivered real business results.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client testimonial" class="author-img">
+                        <div class="author-info">
+                            <h4>Michael Johnson</h4>
+                            <p>CEO, TechSolutions Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item animate slide-up">
+                    <div class="testimonial-content">
+                        <p>We hired Jahidul for our Shopify store optimization, and the results exceeded our expectations. Our organic revenue increased by 40% in just 4 months. His attention to detail and understanding of e-commerce SEO is exceptional.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client testimonial" class="author-img">
+                        <div class="author-info">
+                            <h4>Sarah Williams</h4>
+                            <p>Founder, FashionHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info animate slide-left">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">Mdjahidulislam@gmail.com</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">+8801609132361</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">Rajshahi, Bangladesh</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">linkedin.com/in/jahidul-islam-seo-expert</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-text">Available for remote work worldwide</div>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://linkedin.com/in/jahidul-islam-seo-expert" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form animate slide-right">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Jahidul Islam</div>
+                <p>Professional SEO Executive & CMS Customization Specialist</p>
+                
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/jahidul-islam-seo-expert" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:Mdjahidulislam@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+8801609132361"><i class="fas fa-phone"></i></a>
+                    <a href="#portfolio"><i class="fas fa-briefcase"></i></a>
+                </div>
+                
+                <div class="copyright">
+                    &copy; <span id="year"></span> Jahidul Islam. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script>
+        // Current Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('active');
+            } else {
+                backToTopBtn.classList.remove('active');
+            }
+        });
+        
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Portfolio Filter
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category').includes(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Contact Form Submission
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Here you would typically send the data to a server
+            // For this demo, we'll just show an alert
+            alert(`Thank you, ${name}! Your message has been sent successfully. I'll contact you soon at ${email}.`);
+            
+            // Reset the form
+            contactForm.reset();
+        });
+        
+        // Animation on Scroll
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.animate');
+            const windowHeight = window.innerHeight;
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementPosition < windowHeight - elementVisible) {
+                    element.classList.add('show');
+                }
+            });
+        };
+        
+        // Run once on page load
+        animateOnScroll();
+        
+        // Run on scroll
+        window.addEventListener('scroll', animateOnScroll);
+    </script>
+</body>
+</html>
