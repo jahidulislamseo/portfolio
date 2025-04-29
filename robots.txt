@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://jahidulislamseo.github.io/portfolio/sitemap.xml
