@@ -1,2 +1,2 @@
 # portfolio
-Jahidul Islam - Expert SEO Executive &amp; CMS Specialist with proven track record in increasing organic traffic by 30%
+Jahidul Islam is the best SEO expert in Bangladesh, offering professional SEO services to improve your website’s Google rankings and grow your business. I provide complete SEO solutions, including technical SEO, on-page SEO, off-page SEO, local SEO, and eCommerce SEO for platforms like WordPress, Shopify, and Jumpseller. With years of experience and data-driven strategies, I ensure increased organic traffic and online visibility. Based in Dhaka, I serve clients across Bangladesh. Get reliable, result-oriented SEO services from a trusted SEO specialist today.
